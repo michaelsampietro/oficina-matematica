@@ -1,0 +1,63 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(255, 202, 18);
+  font-size: 16px;
+}
+
+/* Header css */
+
+#header {
+  padding: 100px 0 100px 0;
+  background-image: url("../images/bg-geometrico.png");
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+#header h1 {
+  text-transform: uppercase;
+}
+
+.esquerda {
+  border-bottom: solid black 4px;
+  border-left: solid black 4px;
+  border-top: solid black 4px;
+  border-radius: 3px;
+  width: 30px;
+}
+
+.direita {
+  border-bottom: solid black 4px;
+  border-right: solid black 4px;
+  border-top: solid black 4px;
+  border-radius: 3px;
+  width: 30px;
+}
+
+/* Corpo css */
+
+#corpo {
+  color: white;
+  background-image: url("../images/bg-amarelo.png");
+  background-color: rgb(255, 202, 18);
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+}
+
+#corpo h1 {
+  text-transform: uppercase;
+}
+
+/* Form */
+
+.lead {
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.botao-azul {
+  text-transform: uppercase;
+  border-radius: 64px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
