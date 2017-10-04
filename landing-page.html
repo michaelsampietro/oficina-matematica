@@ -8,6 +8,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
       <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
@@ -31,15 +32,19 @@
         </div>
       </section>
 
-      <section id="depoimentos" class="padding-pequeno">
+      <section id="depoimentos" class="padding-top-grande">
         <div class="container">
-          <div class="row padding-grande">
-            <div class="ml-auto d-none d-lg-block esquerda"></div>
-            <div class="col-auto text-center">
-              <h1>Depoimentos</h1>
-              <p>Alunos do Projeto Medicina</p>
+          <div class="row padding-pequeno">
+            <div class="d-none d-lg-block esquerda verde-agua"></div>
+            <div class="d-block d-lg-none text-center col"> <!-- Mobile version -->
+              <h1 class="titulo verde-agua">Depoimentos</h1>
+              <p class="subtitulo amarelo">Alunos do Projeto Medicina</p>
             </div>
-            <div class="mr-auto d-none d-lg-block direita"></div>
+            <div class="d-none d-lg-block text-center float-left"> <!-- Desktop version -->
+              <h1 class="titulo verde-agua">Depoimentos</h1>
+              <p class="subtitulo amarelo">Alunos do Projeto Medicina</p>
+            </div>
+            <div class="mr-auto d-none d-lg-block direita verde-agua"></div>
           </div>
 
           <div class="row padding-pequeno text-justify">
@@ -98,7 +103,7 @@
               </div>
             </div>
           </div>
-          <a href="#comprar"><button class="btn btn-primary botao-laranja float-right" type="submit">COMPRAR</button></a>
+          <a href="#comprar" class="padding-pequeno"><button class="btn btn-primary botao-laranja float-right" type="submit">COMPRAR</button></a>
         </div>
       </section>
 
@@ -110,13 +115,16 @@
             </div>
             <div class="col-md-6">
               <div class="row">
-
-                  <div class="ml-auto d-none d-lg-block esquerda"></div>
-                  <div class="float-left">
-                    <h1>José Adenaldo</h1>
-                    <p>Fundador do Projeto Medicina</p>
-                  </div>
-                  <div class="mr-auto d-none d-lg-block direita"></div>
+                <div class="ml-auto d-none d-lg-block esquerda verde-agua"></div>
+                <div class="d-block d-lg-none text-center col"> <!-- Mobile version -->
+                  <h1 class="titulo verde-agua">José Adenaldo</h1>
+                  <p class="subtitulo amarelo">Fundador do Projeto Medicina</p>
+                </div>
+                <div class="d-none d-lg-block text-center float-left"> <!-- Desktop version -->
+                  <h1 class="titulo verde-agua">José Adenaldo</h1>
+                  <p class="subtitulo amarelo">Fundador do Projeto Medicina</p>
+                </div>
+                <div class="d-none d-lg-block direita verde-agua"></div>
 
                 <div class="col-md-6 text-justify">
                   <p>
@@ -129,38 +137,128 @@
               </div>                
             </div>
           </div>
-          <a href="#comprar"><button class="btn btn-primary botao-laranja float-right" type="submit">COMPRAR</button></a>
+          <a href="#comprar" class="padding-pequeno"><button class="btn btn-primary botao-laranja float-right" type="submit">COMPRAR</button></a>
         </div>
       </section>
 
       <section id="vantagens" class="padding-grande">
         <div class="container">
           <div class="row text-center">
-            <div class="ml-auto d-none d-lg-block esquerda"></div>
-            <div class="col-7">
-              <h1>Vantagens</h1>
-              <p>Veja quem já fez a oficina e a semana da matemática. <br>
+            <div class="ml-auto d-none d-lg-block esquerda roxo"></div>
+            <div class="col-md-8 d-block d-lg-none text-center"> <!-- Mobile version -->
+              <h1 class="titulo roxo">Vantagens</h1>
+              <p class="subtitulo branco">Veja quem já fez a oficina e a semana da matemática. <br>
                 A maioria dos nossos alunos tiveram aprovações nos vestibulares que disputaram.</p>
             </div>
-            <div class="mr-auto d-none d-lg-block direita"></div>
+            <div class="col-md-8 d-none d-lg-block"> <!-- Desktop version -->
+              <h1 class="titulo roxo">Vantagens</h1>
+              <p class="subtitulo branco">Veja quem já fez a oficina e a semana da matemática. <br>
+                A maioria dos nossos alunos tiveram aprovações nos vestibulares que disputaram.</p>
+            </div>
+            <div class="mr-auto d-none d-lg-block direita roxo"></div>
           </div>
 
           <div class="row text-justify padding-pequeno">
-            <span class="lead">01</span>
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo conse- quat. Duis autem vel eum iriure dolor in hendrerit in vulputate</p>
+            <div class="col-12 col-md-4">
+              <div class="row">
+                <div class="col-2">
+                  <span class="lead">01 </span>
+                </div>
+                <div class="col">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo conse- quat. Duis autem vel eum iriure dolor in hendrerit in vulputate</p>
+                </div>
+              </div>
             </div>
-            <span class="lead">01</span>
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo conse- quat. Duis autem vel eum iriure dolor in hendrerit in vulputate</p>
+            <div class="col-12 col-md-4">
+              <div class="row">
+                <div class="col-2">
+                  <span class="lead">02</span>
+                </div>
+                <div class="col">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo conse- quat. Duis autem vel eum iriure dolor in hendrerit in vulputate</p>
+                </div>
+              </div>
             </div>
-            <span class="lead">01</span>
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo conse- quat. Duis autem vel eum iriure dolor in hendrerit in vulputate</p>
+            <div class="col-12 col-md-4">
+              <div class="row">
+                <div class="col-2">
+                  <span class="lead">03</span>
+                </div>
+                <div class="col">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo conse- quat. Duis autem vel eum iriure dolor in hendrerit in vulputate</p>
+                </div>
+              </div>
             </div>
           </div>
-          
 
+        </div>
+      </section>
+
+      <section id="bonus" class="padding-top-grande">
+        <div class="container">
+
+            <div class="row">
+              <div class="d-none d-lg-block esquerda verde-agua"></div>
+              <div class="col-md-8 d-block d-lg-none text-center"> <!-- Mobile version -->
+                <h1 class="titulo verde-agua">Bônus</h1>
+                <p class="subtitulo amarelo">Veja quem já fez a oficina e a semana da matemática. A maioria dos nossos alunos tiveram aprovações nos vestibulares que disputaram.</p>
+              </div>
+              <div class="col-md-8 d-none d-lg-block"> <!-- Desktop version -->
+                <h1 class="titulo verde-agua">Bônus</h1>
+                <p class="subtitulo amarelo">Veja quem já fez a oficina e a semana da matemática. A maioria dos nossos alunos tiveram aprovações nos vestibulares que disputaram.</p>
+              </div>
+              <div class="mr-auto d-none d-lg-block direita verde-agua"></div>
+            </div>
+
+            <div class="row padding-pequeno">
+              <div class="col bonus-col">
+                <div class="row">
+                  <div class="col-5 mr-auto ml-auto bonus-img">
+                    <img src="images/prancheta.png" alt="Prancheta" class="img-fluid">
+                  </div>
+                </div>
+                <h3>Outra proposta de estudos</h3>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              </div>
+              <div class="col bonus-col">
+                <div class="row">
+                  <div class="col-5 mr-auto ml-auto bonus-img">
+                    <img src="images/mochila.png" alt="Prancheta" class="img-fluid">
+                  </div>
+                </div>
+                <h3>Outra proposta de estudos</h3>
+                <div class="separator">
+                  <i class="fa fa-check d-inline" aria-hidden="true"></i>
+                  <p class="d-inline"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div> 
+                <div class="separator">
+                  <i class="fa fa-check d-inline" aria-hidden="true"></i>
+                  <p class="d-inline"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div> 
+                <div class="separator">
+                  <i class="fa fa-check d-inline" aria-hidden="true"></i>
+                  <p class="d-inline"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div> 
+              </div>
+              <div class="col bonus-col">
+                <div class="row">
+                  <div class="col-5 mr-auto ml-auto bonus-img">
+                    <img src="images/medalha.png" alt="Prancheta" class="img-fluid">
+                  </div>
+                </div>
+                <h3>Outra proposta de estudos</h3>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              </div>
+                    
+            </div>            
+        </div>
+
+        <div class="background-geometrico padding-grande">
+          <a href="#comprar" class="text-center"><button class="btn btn-primary botao-laranja-gigante" type="submit">COMPRAR</button></a>                
         </div>
       </section>
 
